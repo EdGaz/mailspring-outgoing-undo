@@ -1,0 +1,21 @@
+{
+  "name": "mailspring-outgoing-undo",
+  "displayName": "Outgoing Undo",
+  "title": "Outgoing Undo",
+  "version": "1.0.0",
+  "author": "EdGaz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EdGaz/mailspring-outgoing-undo.git"
+  },
+  "homepage": "https://github.com/EdGaz/mailspring-outgoing-undo#readme",
+  "bugs": { "url": "https://github.com/EdGaz/mailspring-outgoing-undo/issues" },
+  "keywords": ["mailspring", "mailspring-plugin", "undo-send"],
+  "description": "Restore the main-window undo-send toast for messages sent from separate composer windows.",
+  "main": "lib/main.js",
+  "windowTypes": { "default": true },
+  "isOptional": true,
+  "engines": { "mailspring": ">=1.25.0 <2.0.0" },
+  "license": "MIT",
+  "scripts": { "test": "node test.js" }
+}
